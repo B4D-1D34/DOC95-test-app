@@ -1,0 +1,58 @@
+.tableContainer {
+  overflow-x: scroll;
+  margin: auto;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table td,
+.table th {
+  border: 1px solid black;
+  border-bottom: 1px solid black !important;
+  white-space: nowrap;
+}
+
+.head tr :nth-last-child(2) {
+  border-right: none;
+}
+
+.head tr :nth-child(2) {
+  border-left: none;
+}
+
+.table td {
+  padding: 5px 10px;
+}
+
+.cellContainer {
+  display: flex;
+  resize: horizontal;
+  min-width: max-content;
+  max-width: 70vw;
+  overflow: auto;
+  padding: 5px 10px;
+}
+
+.userName {
+  position: sticky;
+  left: 0;
+  background: white;
+  outline: 1px solid black;
+  border-right: none !important;
+}
+
+.date:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.monthlyTotal {
+  position: sticky;
+  right: 0px;
+  background: white;
+  border: none !important;
+  outline: 1px solid black;
+}

@@ -1,0 +1,23 @@
+.sortBox {
+  display: flex;
+  margin-left: 10px;
+}
+
+.icon {
+  padding: 0 5px;
+  border-radius: 4px;
+}
+
+.active {
+  background: rgb(160, 160, 255) !important;
+  color: white !important;
+}
+
+.icon svg {
+  pointer-events: none;
+}
+
+.icon:hover {
+  cursor: pointer;
+  background: rgb(233, 233, 233);
+}

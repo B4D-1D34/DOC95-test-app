@@ -1,0 +1,31 @@
+.tableRow:hover {
+  cursor: grab;
+}
+
+.tableRow span {
+  cursor: auto;
+}
+
+.userName {
+  position: sticky;
+  left: 0;
+  background: white;
+  border: none !important;
+  outline: 1px solid black;
+}
+
+.monthlyTotal {
+  position: sticky;
+  right: 0px;
+  background: white;
+  border: none !important;
+  outline: 1px solid black;
+}
+
+.tableRow :nth-child(2) {
+  border-left: none;
+}
+
+.tableRow :nth-last-child(2) {
+  border-right: none;
+}

@@ -1,0 +1,43 @@
+.modalBG {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.weatherModal {
+  position: relative;
+  width: 300px;
+  height: max-content;
+  background: white;
+  margin: 100px auto;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.title {
+  width: fit-content;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.heading {
+  font-weight: 700;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.closeBtn:hover {
+  cursor: pointer;
+  color: rgb(185, 65, 65);
+}
+
+.dataRow {
+  width: max-content;
+}
