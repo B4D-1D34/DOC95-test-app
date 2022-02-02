@@ -10,3 +10,5 @@
 ## Размер JSON
 
 ![test-task](https://github.com/B4D-1D34/voice-mail-app/blob/main/testjson.png "JSON")
+
+### JSON приложен к заданию data.json в корневой папке
